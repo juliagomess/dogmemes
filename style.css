@@ -1,0 +1,111 @@
+body {
+    background-color: #1E90FF;
+}
+
+nav {
+    background-color: #1d84eb;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    min-height: 13vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: Copperplate, Papyrus, Fantasy;
+    font-weight: bold;
+    color: #1979d8;
+}
+
+footer {
+    width: 100%;
+    background-color: #1979d8;
+    min-height: 5vh;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    display: inline;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.enviar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    display: inline;
+}
+
+#rodape {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto; 
+    margin-right: auto;
+    align-items: center;
+}
+
+#copyright {
+    display: inline;
+    font-family: Copperplate, Papyrus, Fantasy;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: auto; 
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 90px;
+}
+
+.text-menu {
+    font-family: Copperplate, Papyrus, Fantasy;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.text-menu:hover {
+    font-size: 30px;
+}
+
+.corpo  {
+    background-color: #ffffff;
+    width: 70%;
+    min-height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.posts {
+    margin-bottom: 30px;
+}
+
+.sobre {
+    margin-top: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
